@@ -1,0 +1,76 @@
+Date : 2022-11-27 19:42:12
+Directory : c:\Users\jjmor\OneDrive - Bournemouth University\Web programming\web_programming(3)
+Total : 45 files,  2940 codes, 543 comments, 495 blanks, all 3978 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| PHP        |         23 |      1,794 |        297 |        293 |      2,384 |
+| CSS        |         13 |        592 |         34 |        123 |        749 |
+| JavaScript |          4 |        470 |        212 |         79 |        761 |
+| XML        |          5 |         84 |          0 |          0 |         84 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++-------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                    | files      | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                       |         45 |      2,940 |        543 |        495 |      3,978 |
+| .idea                                                                                                                   |          5 |         84 |          0 |          0 |         84 |
+| html                                                                                                                    |         22 |      1,750 |        294 |        291 |      2,335 |
+| script                                                                                                                  |          4 |        470 |        212 |         79 |        761 |
+| style                                                                                                                   |         13 |        592 |         34 |        123 |        749 |
++-------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                                                | language   | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| c:\Users\jjmor\OneDrive - Bournemouth University\Web programming\web_programming(3)\.idea\misc.xml                      | XML        |          6 |          0 |          0 |          6 |
+| c:\Users\jjmor\OneDrive - Bournemouth University\Web programming\web_programming(3)\.idea\modules.xml                   | XML        |          8 |          0 |          0 |          8 |
+| c:\Users\jjmor\OneDrive - Bournemouth University\Web programming\web_programming(3)\.idea\vcs.xml                       | XML        |          6 |          0 |          0 |          6 |
+| c:\Users\jjmor\OneDrive - Bournemouth University\Web programming\web_programming(3)\.idea\web_programming(3).iml        | XML        |          8 |          0 |          0 |          8 |
+| c:\Users\jjmor\OneDrive - Bournemouth University\Web programming\web_programming(3)\.idea\workspace.xml                 | XML        |         56 |          0 |          0 |         56 |
+| c:\Users\jjmor\OneDrive - Bournemouth University\Web programming\web_programming(3)\html\account.php                    | PHP        |         71 |         15 |          6 |         92 |
+| c:\Users\jjmor\OneDrive - Bournemouth University\Web programming\web_programming(3)\html\add_product.php                | PHP        |         63 |          0 |         11 |         74 |
+| c:\Users\jjmor\OneDrive - Bournemouth University\Web programming\web_programming(3)\html\admin_products.php             | PHP        |         83 |          7 |          9 |         99 |
+| c:\Users\jjmor\OneDrive - Bournemouth University\Web programming\web_programming(3)\html\basket.php                     | PHP        |         83 |          5 |         14 |        102 |
+| c:\Users\jjmor\OneDrive - Bournemouth University\Web programming\web_programming(3)\html\connection.php                 | PHP        |        229 |         70 |         39 |        338 |
+| c:\Users\jjmor\OneDrive - Bournemouth University\Web programming\web_programming(3)\html\create_account.php             | PHP        |        215 |          5 |         37 |        257 |
+| c:\Users\jjmor\OneDrive - Bournemouth University\Web programming\web_programming(3)\html\create_account_validation.php  | PHP        |         63 |         15 |         11 |         89 |
+| c:\Users\jjmor\OneDrive - Bournemouth University\Web programming\web_programming(3)\html\decide_account.php             | PHP        |         19 |          6 |          1 |         26 |
+| c:\Users\jjmor\OneDrive - Bournemouth University\Web programming\web_programming(3)\html\delete_account.php             | PHP        |        157 |         22 |         20 |        199 |
+| c:\Users\jjmor\OneDrive - Bournemouth University\Web programming\web_programming(3)\html\display_product.php            | PHP        |         82 |          1 |         18 |        101 |
+| c:\Users\jjmor\OneDrive - Bournemouth University\Web programming\web_programming(3)\html\footer.php                     | PHP        |         18 |          4 |          2 |         24 |
+| c:\Users\jjmor\OneDrive - Bournemouth University\Web programming\web_programming(3)\html\header.php                     | PHP        |         30 |          9 |          7 |         46 |
+| c:\Users\jjmor\OneDrive - Bournemouth University\Web programming\web_programming(3)\html\home.php                       | PHP        |         41 |          2 |          8 |         51 |
+| c:\Users\jjmor\OneDrive - Bournemouth University\Web programming\web_programming(3)\html\log-in.php                     | PHP        |         43 |         27 |         18 |         88 |
+| c:\Users\jjmor\OneDrive - Bournemouth University\Web programming\web_programming(3)\html\logged-in.php                  | PHP        |        108 |         11 |         30 |        149 |
+| c:\Users\jjmor\OneDrive - Bournemouth University\Web programming\web_programming(3)\html\ordered.php                    | PHP        |         97 |         24 |         20 |        141 |
+| c:\Users\jjmor\OneDrive - Bournemouth University\Web programming\web_programming(3)\html\products.php                   | PHP        |        113 |         18 |         12 |        143 |
+| c:\Users\jjmor\OneDrive - Bournemouth University\Web programming\web_programming(3)\html\products_nav.php               | PHP        |         23 |          6 |          2 |         31 |
+| c:\Users\jjmor\OneDrive - Bournemouth University\Web programming\web_programming(3)\html\search_bar.php                 | PHP        |         22 |          1 |          2 |         25 |
+| c:\Users\jjmor\OneDrive - Bournemouth University\Web programming\web_programming(3)\html\search_page.php                | PHP        |         89 |          3 |          8 |        100 |
+| c:\Users\jjmor\OneDrive - Bournemouth University\Web programming\web_programming(3)\html\validate_product.php           | PHP        |         64 |         30 |          9 |        103 |
+| c:\Users\jjmor\OneDrive - Bournemouth University\Web programming\web_programming(3)\html\validate_update.php            | PHP        |         37 |         13 |          7 |         57 |
+| c:\Users\jjmor\OneDrive - Bournemouth University\Web programming\web_programming(3)\index_post.php                      | PHP        |         44 |          3 |          2 |         49 |
+| c:\Users\jjmor\OneDrive - Bournemouth University\Web programming\web_programming(3)\script\create_account_validation.js | JavaScript |        226 |         93 |         39 |        358 |
+| c:\Users\jjmor\OneDrive - Bournemouth University\Web programming\web_programming(3)\script\create_product_validation.js | JavaScript |         79 |         18 |         11 |        108 |
+| c:\Users\jjmor\OneDrive - Bournemouth University\Web programming\web_programming(3)\script\file.js                      | JavaScript |         12 |          1 |          1 |         14 |
+| c:\Users\jjmor\OneDrive - Bournemouth University\Web programming\web_programming(3)\script\update_account_validation.js | JavaScript |        153 |        100 |         28 |        281 |
+| c:\Users\jjmor\OneDrive - Bournemouth University\Web programming\web_programming(3)\style\account_style.css             | CSS        |         80 |          5 |         14 |         99 |
+| c:\Users\jjmor\OneDrive - Bournemouth University\Web programming\web_programming(3)\style\admin_products.css            | CSS        |         70 |          4 |         16 |         90 |
+| c:\Users\jjmor\OneDrive - Bournemouth University\Web programming\web_programming(3)\style\basket_style.css              | CSS        |         44 |          2 |         10 |         56 |
+| c:\Users\jjmor\OneDrive - Bournemouth University\Web programming\web_programming(3)\style\create_account.css            | CSS        |          0 |          0 |          1 |          1 |
+| c:\Users\jjmor\OneDrive - Bournemouth University\Web programming\web_programming(3)\style\delete_account_style.css      | CSS        |          0 |          0 |          1 |          1 |
+| c:\Users\jjmor\OneDrive - Bournemouth University\Web programming\web_programming(3)\style\display_product_style.css     | CSS        |         73 |          1 |         13 |         87 |
+| c:\Users\jjmor\OneDrive - Bournemouth University\Web programming\web_programming(3)\style\footer.css                    | CSS        |         43 |          0 |          6 |         49 |
+| c:\Users\jjmor\OneDrive - Bournemouth University\Web programming\web_programming(3)\style\guitar_style.css              | CSS        |         28 |          2 |          7 |         37 |
+| c:\Users\jjmor\OneDrive - Bournemouth University\Web programming\web_programming(3)\style\header.css                    | CSS        |        118 |         13 |         22 |        153 |
+| c:\Users\jjmor\OneDrive - Bournemouth University\Web programming\web_programming(3)\style\home_style.css                | CSS        |         37 |          3 |          9 |         49 |
+| c:\Users\jjmor\OneDrive - Bournemouth University\Web programming\web_programming(3)\style\logged-in_style.css           | CSS        |          0 |          0 |          1 |          1 |
+| c:\Users\jjmor\OneDrive - Bournemouth University\Web programming\web_programming(3)\style\products_nav_style.css        | CSS        |         29 |          0 |          5 |         34 |
+| c:\Users\jjmor\OneDrive - Bournemouth University\Web programming\web_programming(3)\style\products_style.css            | CSS        |         70 |          4 |         18 |         92 |
+| Total                                                                                                                   |            |      2,940 |        543 |        495 |      3,978 |
++-------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+

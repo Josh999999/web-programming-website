@@ -1,0 +1,45 @@
+*{
+    margin: 0%;
+}
+
+#body2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#delete_input_box, #delete_complete_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35%;
+    height: 100%;
+    
+    /*Change the border */
+    border: 3px solid black;
+    border-radius: 40px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+    flex-direction: column;
+}
+
+#delete_design{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 90%;
+    flex-direction: column;
+}
+
+#deleted_account_date{
+    width: 100%;
+}
+
+#kick_timer{
+    color: red;
+    font-size: 30px;
+}

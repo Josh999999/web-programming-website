@@ -1,0 +1,41 @@
+* {
+    margin: 0%;
+}
+
+#welcome_text{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+
+    /*Change the border */
+    border: 3px solid black;
+    border-radius: 40px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#welcome_text p {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 20px;
+
+    /*Stretching the text */
+    display: inline-block;
+    transform: scale(1, 1.2);
+}
+
+#welcome_text h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 18px;
+
+    /*Stretching the text */
+    display: inline-block;
+    transform: scale(1, 1.2);
+}
+

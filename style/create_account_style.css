@@ -1,0 +1,37 @@
+* {
+    margin: 0%;
+}
+
+#body2{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    height: 600px;
+}
+
+.displayed{
+    display: inline !important;
+}
+
+.hidden{
+    display: none !important;
+}
+
+#create_account_form{
+    /*Turn to a flexbox to help with media queries*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    height: 80%;
+    margin: 0%;
+
+    border: 2px solid black;
+    border-radius: 35px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+}

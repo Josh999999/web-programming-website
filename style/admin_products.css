@@ -1,0 +1,81 @@
+* {
+    margin: 0%;
+}
+
+#body2 {
+    margin-top: 50px;
+    height: 585px;
+
+    /*Create the grid */
+    display: flex;
+    color: black;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+
+#admin_products_asside_buttons{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    margin: 18px;
+}
+
+#products_display_area{
+    margin-top: 20px;
+    border: 4px solid black;
+    height: 500px;
+    width: 1100px;
+    padding: 50px;
+
+    grid-column: 2;
+
+    /*Turn to a flexbox to help with media queries*/
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-content: space-between;
+
+    /*Add scrolling*/
+    overflow: auto;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    white-space: nowrap;
+}
+
+#products_display_area .product_container{
+    display: flex;
+    height: 30%;
+    margin: 5px;
+    padding: 2px;
+    border: 5px solid;
+    background-color: #9D9688;
+    flex-direction: column;
+}
+
+#add_product{
+    width: 100%;
+}
+
+#products_display_area .product_container dl{
+    display: flex;
+    flex-direction: column;
+}
+
+a:link, a:active, a, a:visited, a:hover {
+    text-decoration: none;
+    color: black;
+  }
+
+.product_container dl{
+    display: flex;
+}
+
+#product_type_header{
+    display:grid;
+    justify-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 30px;
+}

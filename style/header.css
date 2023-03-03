@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+}
+
+.alt_nav{
+    width: 80px;
+    height: 30px;
+}
+
+#header1{
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 150px;
+    background-color: blanchedalmond;
+    margin-bottom: 95px;
+}
+
+#header2{
+
+    border: 1px solid;
+    border-top: 0px;
+    padding: 8px;
+    box-shadow: 4px 4px 4px 4px;
+
+    width: 70%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: blanchedalmond;
+
+    /*
+    for centering different items:
+        - items:
+            - justify-items
+            - align-items
+        - content:
+            - justify-content
+            - align-content
+        - self:
+            - justify-self
+            - align-self
+    */
+}
+
+#header_title{
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    width: 70%;
+    font-size: 40px;
+}
+
+#div_line_div{
+    border-right: 4px solid black;
+    height: 90%;
+    width: 20px;
+    position: relative;
+}
+
+#basket_div{
+    display: grid;
+    grid-template-columns: 30px, 5px;
+    grid-auto-rows: minmax(100px, 1fr);
+    gap: 8px;
+    align-items: center;
+    justify-items: center;
+}
+
+#basket_button{
+    grid-column: 1;
+}
+
+#basket_div h3{
+    grid-column: 2;
+    width: 8px;
+    margin-right: 15px;
+}
+
+#nav_list1{
+    height: 55%;
+    width: 55%;
+    grid-column: 5;
+    display: grid;
+    grid-template-columns: 20%, 20%;
+    grid-auto-rows: minmax(50%, 1fr);
+    gap: 8px;
+    margin-right: 20px;
+    margin-left: 10px;
+    gap: 18px;
+}
+
+#nav_list1 input[type="button"]{
+    height: 100%;
+    width: 90%;
+}
+
+#home {
+    grid-column: 1;
+}
+
+#guitars{
+    grid-column: 2;
+}
+
+#applifiers{
+    grid-column: 1;
+}
+
+#extra-bits{
+    grid-column: 2;
+}
+
+#guitar_header_img{
+    width: 160px;
+    height: 200px;
+    margin-right: 10px;
+    margin-left: 10px;
+
+    background-image: url("../script/data/Images/header_guitar.png");
+    background-size: 130% 100%;
+    background-repeat: no-repeat;
+
+    display: inline;
+}
+
+.dropdown{
+    display: none;
+}
+
+#nav_list2{
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+#nav_list2 input[type="button"]{
+    width: 100px;
+    height: 60px;
+    margin: 10px;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content input:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover #nav_list2 {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+#drop_down_img{
+    width: 30px;
+    height: 30px;
+}
+
+/*Media queries for the site*/
+@media screen and (max-width: 1080px){
+    #nav_list1{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .dropdown{
+        display: inline-block;
+        position: relative;
+    }
+    
+    #nav_list2{
+        display: none;
+        position: absolute;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+
+    #basket_div{
+        margin-right: 1px;
+    }
+    
+    /* Change color of dropdown links on hover */
+    .dropdown-content input:hover {background-color: #ddd;}
+    
+    /* Show the dropdown menu on hover */
+    .dropdown:hover #nav_list2 {display: block;}
+    
+    /* Change the background color of the dropdown button when the dropdown content is shown */
+    .dropdown:hover .dropbtn {background-color: #3e8e41;}
+    
+    
+    #guitar_header_img{
+        display: none;
+    }
+
+    input[type="button"], button{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    #header2{
+        width: 95%;
+    }
+}

@@ -1,0 +1,34 @@
+
+@media screen and (max-width: 1000px) {
+    #body{
+        background-color: white;
+    }
+}
+
+#products_navbar{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-auto-columns: minmax(70px, 90px);
+    grid-auto-rows: minmax(25px, 30px);
+    border: 3px, solid, black;
+}
+
+#products_navbar h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 20px;
+}
+
+.products_navbar_label{
+    grid-column: 1;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 20px;
+}
+
+.products_navbar_input{
+    grid-column: 2;
+}

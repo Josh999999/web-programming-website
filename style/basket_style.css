@@ -1,0 +1,105 @@
+* {
+    margin: 0%;
+}
+
+#body{
+    height: 700px;;
+}
+
+#body2 {
+    display: flex;
+    justify-content: center;
+}
+
+#products_display_area{
+    margin-top: 20px;
+    border: 4px solid black;
+    height: 900px;
+    width: 40%;
+    padding: 30px;
+    overflow: auto;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    white-space: nowrap;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-content: space-between;
+    align-items: center;
+}
+
+#basket_header{
+    margin-top: 20px;
+    margin: 3%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#basket_title{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+img{
+    max-height:300px;
+    max-width:160px;
+    height:auto;
+    width:auto;
+}
+
+.basket_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 55px;
+}
+
+#go_to_checkount{
+    width: 40%;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 900px){
+    #go_to_checkount{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 800px){
+    #go_to_checkount{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    #go_to_checkount{
+        width: 100%;
+    }
+}
+
+
+#basket_count{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+ul{
+    padding: 0%;
+    list-style: none;
+}
+
+#remove_basket_item{
+    width: 50%;
+}

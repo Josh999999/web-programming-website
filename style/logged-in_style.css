@@ -1,0 +1,77 @@
+*{
+    margin: 0%;
+}
+
+body{
+    height: 2000px;
+}
+
+#body2{
+    height: 100%;
+}
+
+#body3{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 100%;
+}
+
+#logged_in_buttons{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 40%;
+}
+
+#body3 input[type="submit"], #body3 input[Type="button"]{
+    margin: 10px;
+    width: 80%;
+    height: 4%;
+}
+
+#admin_section form input[type="submit"]{
+    height: 100%;
+}
+
+#admin_section form{
+    margin: 5px;
+    width: 100%;
+    height: 4%;
+    display: flex;
+    justify-content: center;
+}
+
+#update_section{
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+}
+
+#admin_section{
+    display: flex;
+    flex-direction: column;
+    padding-left: 6%;
+    align-items: center;
+    margin-left: 10%;
+}
+
+#admin_section input[type="submit"], input[Type="button"]{
+    margin-top: 10px;
+    margin: 10px;
+}
+
+#account_details{
+    display: flex;
+    flex-direction: column;
+}
+
+#account_section1{
+    padding-left: 15%;
+}
+
+#update_buttons{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
